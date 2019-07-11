@@ -1,0 +1,23 @@
+{
+  "name": "oracle-developer-dark-theme",
+  "version": "1.0.0",
+  "description": "A dark theme for Oracle Developer inspired by VS Code Dark+ theme",
+  "main": "update.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leal32b/oracle-developer-dark-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leal32b/oracle-developer-dark-theme/issues"
+  },
+  "homepage": "https://github.com/leal32b/oracle-developer-dark-theme#readme",
+  "dependencies": {
+    "archiver": "^3.0.0"
+  }
+}
