@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0RC1
+Created-By: 25.77-b03 (Oracle Corporation)
+Bundle-ActivationPolicy: lazy
+Bundle-SymbolicName: oracle.theme-fusionblue
+Bundle-Version: 13.0.0
+Bundle-ManifestVersion: 2
+Bundle-ClassPath: .
+Export-Package: META-INF,oracle.javatools.themes.fusionblue
+Oracle-ProjectName: theme-fusionblue
+Oracle-ProjectType: BUNDLE
+Oracle-Version: 13.0.0.1.42.170225.0201
+Oracle-Label: JDEVADF_MAIN_GENERIC_170225.0201.S
+Oracle-Label-JDEVADF: JDEVADF_MAIN_GENERIC_170225.0201.S
+Oracle-Builder: user=aime host=slc03tui
+Oracle-Internal-Release: 13.0.0.1.0
+Oracle-BuildSystem: Linux - java - 1.8.0_77-b03
+Oracle-BuildTimestamp: 2017-02-25 02:32:54 -0800
+
