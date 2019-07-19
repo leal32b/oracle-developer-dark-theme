@@ -1,5 +1,6 @@
 # node files
 node_modules
+update.js
 
 #release folder
 release

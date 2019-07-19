@@ -1,7 +1,10 @@
 // require modules
-var fs = require('fs');
-var dir = './release';
-var archiver = require('archiver');
+const fs = require('fs');
+const dir = './release';
+const archiver = require('archiver');
+
+// theme name
+const releaseName = 'fusionblue';
 
 // verify if the directory exists
 if (!fs.existsSync(dir)){
@@ -9,7 +12,7 @@ if (!fs.existsSync(dir)){
 }
  
 // create a file to stream archive data to.
-var output = fs.createWriteStream(__dirname + '/release/fusionblue.jar');
+var output = fs.createWriteStream(`${__dirname}/release/${releaseName}.jar`);
 var archive = archiver('zip', {
   zlib: { level: 0 } // Sets the compression level.
 });
